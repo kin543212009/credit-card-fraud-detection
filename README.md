@@ -69,16 +69,11 @@ The Decision Tree model was selected for final testing on an untouched test set.
 - Precision: 0.2955
 - F1-score: 0.4250
 
-## Key Insights
-- Decision Tree achieved the best balance between fraud detection and false alarms.
-- kNN delivered high recall but generated more false positives.
-- Naive Bayes showed ranking ability but failed at the default decision threshold in practical fraud detection.
-- The gap between validation and final test performance highlights the challenge of applying models trained on resampled data to real-world imbalanced data.
 
 ## Files
 - `fraud_detection_models.R`: main R script for preprocessing, feature engineering, modeling, and evaluation
-- `reports/project-report.pdf`: report summary
-- `reports/presentation-slides.pdf`: presentation slides
+- `project-report.pdf` or `reports/project-report.pdf`: report summary
+- `presentation-slides.pdf` or `reports/presentation-slides.pdf`: presentation slides
 - `images/`: selected output charts and model visuals
 
 ## Tech Stack
@@ -93,7 +88,7 @@ The Decision Tree model was selected for final testing on an untouched test set.
 - ggplot2
 
 ## My Contribution
-This project was completed as a group assignment. My contribution included project interpretation, result summarization, and portfolio presentation of the fraud detection workflow and model comparison findings.
+This was a group academic project. I use this repository to present the project workflow, model comparison logic, and selected outputs as part of my analytics portfolio.
 
 ## Notes
-The original dataset is not uploaded to this repository due to file size and source restrictions. Please download the dataset separately from Kaggle if you want to reproduce the workflow.
+The original dataset is not uploaded to this repository due to file size and source restrictions. Please download the dataset separately if you want to reproduce the workflow.
